@@ -151,11 +151,11 @@ const styles = StyleSheet.create({
     fontWeight: "300",
     color: "#757083",
     opacity: 0.5,
+    width:"100%"
   },
 
   colorBox: {
-    marginRight: "auto",
-    paddingLeft: 15,
+    
     width: "88%",
   },
 
@@ -164,11 +164,12 @@ const styles = StyleSheet.create({
     fontWeight: "300",
     color: "#757083",
     opacity: 100,
+    textAlign: "center"
   },
 
   colorArray: {
     flexDirection: "row",
-    justifyContent: "space-between",
+    justifyContent: "space-around",
     width: "80%",
   },
 
